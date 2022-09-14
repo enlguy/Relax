@@ -26,3 +26,17 @@ function breatheAnimation() {
 breatheAnimation();
 
 setInterval(breatheAnimation, totalTime);
+
+function changeTheme()
+    {
+        var e = document.getElementById("drop");
+        var strUser = e.options[e.selectedIndex].value;
+        if (strUser == "night")
+        {
+            document.body.style.backgroundImage = "url('./images/soothe.jpg')";
+        }
+        if (strUser == "day")
+        {
+            document.body.style.backgroundImage = "url('./images/tranday.jpg')";
+        }
+    }

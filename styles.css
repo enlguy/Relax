@@ -34,6 +34,16 @@ body::before {
     z-index: -3;
 }
 
+#drop {
+    float: right;
+    position: absolute;
+    left: 1100px;
+}
+
+form {
+    border-radius: 25px;
+}
+
 .container {
     display: flex;
     align-items: center;
